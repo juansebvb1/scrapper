@@ -1,4 +1,4 @@
-name: Run Scraper
+name: Run Scrapper
 
 on:
   workflow_dispatch:
@@ -22,5 +22,5 @@ jobs:
         run: |
           pip install requests beautifulsoup4
 
-      - name: Run scraper
+      - name: Run scrapper
         run: python scrapper.py
